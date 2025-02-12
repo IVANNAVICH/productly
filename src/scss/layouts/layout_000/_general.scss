@@ -4,11 +4,29 @@ html {
 
 body {
   @include getCssVar(font-family);
-  font-size: 1rem;
+  font-size: $baseFontSize;
+  color: $black;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+image {
+  width: 100%;
+  max-width: 100%;
+  height: auto;
 }
 
 .container {
   max-width: 1200px;
   margin: auto;
   padding: 0 12px;
+}
+
+.orange-btn {
+  background: $orange;
+  color: $white;
+  border: none;
 }

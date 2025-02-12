@@ -35,3 +35,21 @@ ssm.addStates([
     },
   },
 ]);
+
+
+ const names = ["John", "Jane", "Bob", "Alice", "Mary"];
+ console.log(names[0]);
+ names[0] = "Peter";
+ console.log(names[0]);
+ names[names.length - 1] = "xxx"
+ console.log(names);
+ console.log(names.length);
+ 
+ for (let i = 0, len = names.length; i < len; i++) {
+  console.log("hello " + names[i]);
+  
+ }
+
+ let a = 456;
+ a %= 6;
+ console.log(a);

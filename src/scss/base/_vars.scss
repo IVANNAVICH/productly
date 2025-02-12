@@ -1,34 +1,39 @@
 //fonts
-$google-font: "https://fonts.googleapis.com/css?family=Ubuntu:400,500";
-$prefix: prefix- !default;
-$baseFontSize: 16px;
-$baseFontFamily: "Ubuntu", sans-serif;
-$mediumFontWeight: 500;
+$google-font: "https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap";
 
+$prefix: productly- !default;
+$baseFontSize: 1rem;
+$baseFontFamily: "Montserrat", sans-serif;
+
+$mediumFontWeight: 500;
 $mobilePadding: (12px / $baseFontSize) * 1rem;
 $desktopPadding: 1rem;
 
 // Paths
 
-$imagesPath: "../i/";
+$i: "../i/";
 $fontsPath: "../fonts/";
 $usersFilesPath: "../userfiles/";
 
 // Colors
-$black: #000000;
+$black: #2f281e;
 $white: #ffffff;
+$blueGray: #bcd0e5;
 $blue: #0d6efd !default;
 $indigo: #6610f2 !default;
 $purple: #6f42c1 !default;
 $pink: #d63384 !default;
-$red: #dc3545 !default;
+$red: #ff4e4a !default;
+$orange: #f90 !default;
 
 $colors: (
   "black": $black,
   "white": $white,
+  "blueGray": $blueGray,
   "blue": $blue,
   "indigo": $indigo,
   "purple": $purple,
   "pink": $pink,
   "red": $red,
+  "orange": $orange,
 ) !default;

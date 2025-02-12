@@ -1,0 +1,15 @@
+.navbar {
+  justify-content: space-between;
+}
+.navbar__menu {
+  gap: 20px;
+  &__item {
+    font-weight: 400;
+    padding: 0;
+  }
+}
+
+.navbar__sign {
+  font-size: 1rem;
+  padding: rem(14px) rem(23px);
+}

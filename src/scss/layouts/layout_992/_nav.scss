@@ -1,0 +1,23 @@
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.navbar__logo {
+  margin: 0;
+}
+
+.navbar__menu {
+  margin: 0;
+  gap: 0.5rem;
+}
+
+.navbar__menu__item:hover {
+  color: $orange;
+}
+
+.navbar__sign:hover {
+  transform: scale(1.05);
+  cursor: pointer;
+}

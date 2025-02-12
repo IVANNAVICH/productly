@@ -354,8 +354,8 @@ textarea {
   line-height: 1;
 
   /* Browsers have different default form fonts */
-  font-size: 13px;
-  font-family: Arial;
+  // font-size: 13px;
+  // font-family: Arial;
 }
 
 /* Remove the stupid outer glow in Webkit */
@@ -437,9 +437,6 @@ textarea {
 
 /* Selects
 -----------------------------------------------*/
-
-select {
-}
 
 select[multiple] {
   /* Move the label to the top */

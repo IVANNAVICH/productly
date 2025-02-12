@@ -1,0 +1,44 @@
+.navbar__logo {
+  text-align: center;
+  margin: 0 auto;
+  padding: 2rem 0;
+}
+
+.navbar__menu {
+  max-width: 400px;
+  list-style: none;
+  margin: 0 auto 3rem;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 1rem;
+
+  &__item {
+    flex-basis: 40%;
+    text-align: center;
+    padding: 1rem;
+    font-size: 1.2rem;
+    font-weight: 600;
+  }
+}
+
+.navbar__button-container {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+}
+
+.navbar__sign {
+  text-align: center;
+  font-weight: 600;
+  padding: rem(13px) rem(25px);
+  border: 1px solid $blueGray;
+  border-radius: 4px;
+  font-size: 1.2rem;
+  font-weight: 600;
+}
+
+.orange-btn {
+  border: none;
+}
