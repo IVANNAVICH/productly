@@ -1,0 +1,11 @@
+.btn-theme-container {
+  margin: 0;
+  width: 100px;
+  text-transform: uppercase;
+  font-weight: 700;
+  cursor: pointer;
+
+  @include e(span) {
+    vertical-align: 10px;
+  }
+}

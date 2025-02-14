@@ -17,6 +17,8 @@ $usersFilesPath: "../userfiles/";
 
 // Colors
 $black: #2f281e;
+$lightBlack: #242424;
+$bgGreen: #083f43;
 $white: #ffffff;
 $blueGray: #bcd0e5;
 $blue: #0d6efd !default;
@@ -27,7 +29,9 @@ $red: #ff4e4a !default;
 $orange: #f90 !default;
 
 $colors: (
+  "bgGreen": $bgGreen,
   "black": $black,
+  "lightBlack": $lightBlack,
   "white": $white,
   "blueGray": $blueGray,
   "blue": $blue,

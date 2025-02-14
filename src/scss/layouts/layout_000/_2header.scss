@@ -1,0 +1,27 @@
+.header__text-block {
+  text-align: center;
+}
+
+.header__p {
+  padding: 0 rem(20px);
+  margin: rem(30px) 0 rem(20px);
+}
+
+.header__button {
+  font-weight: 600;
+  padding: rem(17px) rem(42px);
+  border-radius: 4px;
+  font-size: 1rem;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.header__img-block {
+  margin: 5rem auto 2rem;
+  max-width: 500px;
+}
+
+.header__img-block img {
+  max-width: 100%;
+  height: auto;
+}

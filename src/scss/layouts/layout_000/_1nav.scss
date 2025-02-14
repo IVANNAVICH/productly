@@ -1,7 +1,17 @@
+.navbar {
+  margin-bottom: 1.5rem;
+}
+
 .navbar__logo {
   text-align: center;
   margin: 0 auto;
   padding: 2rem 0;
+}
+
+.navbar__logo img {
+  background: white;
+  padding: rem(5px);
+  border-radius: 10px;
 }
 
 .navbar__menu {
@@ -37,6 +47,7 @@
   border-radius: 4px;
   font-size: 1.2rem;
   font-weight: 600;
+  cursor: pointer;
 }
 
 .orange-btn {

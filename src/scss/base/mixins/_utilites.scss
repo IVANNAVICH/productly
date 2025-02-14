@@ -77,11 +77,11 @@
 ) {
   position: relative;
   &::before {
-    content: #{$content};
-    position: #{$position};
     top: #{$top};
     left: #{$left};
     right: #{$right};
     bottom: #{$bottom};
+    content: #{$content};
+    position: #{$position};
   }
 }

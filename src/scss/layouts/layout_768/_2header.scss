@@ -1,0 +1,23 @@
+.header {
+  margin-bottom: 2rem;
+  display: flex;
+  align-items: center;
+
+  &__img-block {
+    margin: 0;
+    max-width: none;
+    flex-basis: 50%;
+  }
+  &__text-block {
+    text-align: initial;
+    flex-basis: 50%;
+  }
+  &__p {
+    padding: 0;
+    padding-right: 2rem;
+  }
+}
+
+.header__button:hover {
+  transform: scale(1.05);
+}
