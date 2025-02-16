@@ -1,0 +1,11 @@
+.main-top__flexbox {
+  flex-wrap: nowrap;
+}
+
+.main-top__item {
+  flex-basis: none;
+}
+
+.main-bottom__container {
+  gap: rem(125px);
+}

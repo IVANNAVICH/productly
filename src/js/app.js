@@ -25,3 +25,19 @@ document.getElementById("darkToggle").addEventListener("click", function () {
 
   path.setAttribute("fill", newColor);
 });
+
+
+let state = 0;
+
+toggleButton.onclick = function toggleCycle() {
+  const mainBg = document.getElementById('mainBg');
+  if (state === 0) {
+    mainBg.classList.remove("main__bg");
+} else if (state === 1) {
+    // Skip - do nothing
+} else if (state === 2) {
+    mainBg.classList.add("main__bg"); 
+}
+state = (state + 1) % 3;
+}
+
