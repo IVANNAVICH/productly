@@ -1,0 +1,20 @@
+.footer__box:not(:last-of-type) {
+  text-align: start;
+}
+.footer__box:nth-of-type(1) {
+  flex: 0;
+}
+
+.footer__h4 {
+  margin-top: 5px;
+}
+
+.footer__h4:has(+ .footer__input) {
+  margin-top: 2rem;
+  padding: 0 1rem;
+}
+
+.footer__button:hover {
+  transform: scale(1.05);
+  cursor: pointer;
+}

@@ -37,19 +37,18 @@ ssm.addStates([
 ]);
 
 
- const names = ["John", "Jane", "Bob", "Alice", "Mary"];
- console.log(names[0]);
- names[0] = "Peter";
- console.log(names[0]);
- names[names.length - 1] = "xxx"
- console.log(names);
- console.log(names.length);
- 
- for (let i = 0, len = names.length; i < len; i++) {
-  console.log("hello " + names[i]);
-  
- }
+const topButton = document.querySelector(".back-to-top");
 
- let a = 456;
- a %= 6;
- console.log(a);
+        window.addEventListener("scroll", () => {
+            if (window.scrollY > 1000) {
+                topButton.style.display = "block";
+            } else {
+                topButton.style.display = "none";
+            }
+        });
+
+        function scrollToTop() {
+            window.scrollTo({ top: 0, behavior: "smooth" });
+        }
+
+ 

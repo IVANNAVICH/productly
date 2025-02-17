@@ -5,7 +5,7 @@
   position: absolute;
   left: 50%;
   transform: translateX(-50%);
-  width: calc(100vw - 20px);
+  width: calc(100vw - 4%);
   height: 540px;
   bottom: 0;
   background: url(#{$i}bg1440.svg) no-repeat center bottom;
@@ -28,11 +28,15 @@
   display: block;
   margin: 2rem auto 0;
   font-weight: 600;
-  padding: rem(17px) rem(42px);
+  padding: rem(17px) 0;
   border-radius: 4px;
   font-size: 1rem;
   font-weight: 700;
   cursor: pointer;
+}
+
+.main-top__btn a {
+  padding: rem(17px) rem(42px);
 }
 
 .main-top__item {
@@ -62,6 +66,7 @@
 
 .main-bottom__text h2 {
   margin-top: 0.5rem;
+  font-size: rem(36px);
 }
 
 .main-bottom__list {

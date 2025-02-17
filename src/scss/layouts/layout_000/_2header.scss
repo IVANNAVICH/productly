@@ -10,11 +10,14 @@
 
 .header__button {
   font-weight: 600;
-  padding: rem(17px) rem(42px);
+  padding: rem(17px) 0;
   border-radius: 4px;
   font-size: 1rem;
   font-weight: 700;
   cursor: pointer;
+}
+.header__button a {
+  padding: rem(17px) rem(42px);
 }
 
 .header__img-block {

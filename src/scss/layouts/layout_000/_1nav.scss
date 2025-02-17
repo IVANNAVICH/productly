@@ -50,6 +50,13 @@
   cursor: pointer;
 }
 
+.navbar__sign:last-of-type {
+  padding: 0;
+}
+.navbar__sign a {
+  padding: 14px 25px;
+}
+
 .orange-btn {
   border: none;
 }

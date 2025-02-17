@@ -1,0 +1,10 @@
+.footer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+.footer__box:nth-of-type(1) {
+  flex: 1 1 100%;
+  text-align: center;
+}

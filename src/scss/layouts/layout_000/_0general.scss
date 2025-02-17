@@ -49,3 +49,18 @@ image {
   width: 100%;
   height: auto;
 }
+
+.back-to-top {
+  position: fixed;
+  bottom: 5%;
+  right: 20px;
+  width: 55px;
+  height: 55px;
+  background: $blue;
+  color: white;
+  border: none;
+  cursor: pointer;
+  border-radius: 30px;
+  display: none;
+  font-size: 2rem;
+}
